@@ -21,6 +21,11 @@ image:
   # additional volumes to mount
   additionalVolumes: []
 
+# environment variables
+env:
+  - name: "MONGO_URI"
+    value: "mongodb://"
+#env: []
 
 timestamp: "0"
 
