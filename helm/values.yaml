@@ -22,10 +22,10 @@ image:
   additionalVolumes: []
 
 # environment variables
-env:
-  - name: "MONGO_URI"
-    value: "mongodb://"
-#env: []
+#env:
+#  - name: "MONGO_URI"
+#    value: "mongodb://"
+env: []
 
 timestamp: "0"
 
